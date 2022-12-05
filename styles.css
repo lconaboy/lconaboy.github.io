@@ -1,6 +1,7 @@
 body {
     font-color: black;
     background-color: white;
+    font-family: sans-serif;
 }
 
 h1 {
@@ -12,3 +13,21 @@ p {
 
 
 td { font-size: 24px }
+
+.container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+img {
+    display:flex;
+    max-width: 40%
+}
+.image {
+    flex-basis: 40%;
+    padding-left: 20px;
+}
+.text {
+    width: 500px;
+    font-size: 20px;
+}
