@@ -1,7 +1,11 @@
 body {
-    font-color: black;
-    background-color: white;
+    font-color: #444;
+    background-color: #EEEEE;
     font-family: sans-serif;
+    margin: 40px auto;
+    max-width: 650pc;
+    line-height: 1.6;
+    font-size: 18px;
 }
 
 h1 {
