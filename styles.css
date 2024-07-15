@@ -2,8 +2,8 @@ body {
     font-color: #444;
     background-color: #FFFFF; /* #EEEEE; */
     font-family: sans-serif;
-    margin: 210px auto;
-    max-width: 650px;
+    /* margin: 210px auto; */
+    max-width: 860px;
     line-height: 1.6;
     font-size: 24px;
     padding: 0 10px;
@@ -31,6 +31,10 @@ h1,h2,h3 {
   display: block;
 }
 
+.main{
+    margin-left: 210px;
+    padding: 0px 10px;
+}
 
 .footer {
     position : absolute;
