@@ -39,10 +39,11 @@ h1,h2,h3 {
 .footer {
     position : absolute;
     bottom : 0;
-    height : 45px;
+    height : 50px;
     margin-top : 40px;
+    margin-bottom : 5px;
+    margin-left: 10px;
     font-size: 18px;
-    text-align: right;
 }
 /* .main { */
 /*   margin-left: 210px; /\* Same width as the sidebar + left position in px *\/ */
