@@ -2,16 +2,49 @@ body {
     font-color: #444;
     background-color: #FFFFF; /* #EEEEE; */
     font-family: sans-serif;
-    margin: 40px auto;
+    margin: 210px auto;
     max-width: 650px;
     line-height: 1.6;
-    font-size: 18px;
+    font-size: 24px;
     padding: 0 10px;
 }
 
 h1,h2,h3 {
     line-height: 1.2
 }
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 24px;
+  display: block;
+}
+
+
+.footer {
+    position : absolute;
+    bottom : 0;
+    height : 45px;
+    margin-top : 40px;
+    font-size: 18px;
+    text-align: right;
+}
+/* .main { */
+/*   margin-left: 210px; /\* Same width as the sidebar + left position in px *\/ */
+/*   font-size: 28px; /\* Increased text to enable scrolling *\/ */
+/*   padding: 0px 10px; */
+/* } */
 
 /* p { */
 /*     font-size: 24px */
