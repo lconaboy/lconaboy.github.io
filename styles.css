@@ -3,7 +3,7 @@ body {
     background-color: #FFFFF; /* #EEEEE; */
     font-family: sans-serif;
     /* margin: 210px auto; */
-    max-width: 666px;
+    max-width: 450px;
     line-height: 1.6;
     font-size: 20px;
     /* padding: 0 10px; */
@@ -39,7 +39,7 @@ h1,h2,h3 {
 /* } */
 
 .main {
-    max-width: 666px;
+    max-width: 450px;
     /* margin-left: auto; */
     /* margin-right: auto; */
     margin: 0 auto; /* center */
@@ -48,7 +48,7 @@ h1,h2,h3 {
 }
 
 .header {
-    max-width: 666px;
+    max-width: 450px;
     width: 100%;
     margin: 0 auto; /* center */
     text-align: center;
