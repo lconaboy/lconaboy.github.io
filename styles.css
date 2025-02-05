@@ -3,9 +3,9 @@ body {
     background-color: #FFFFF; /* #EEEEE; */
     font-family: sans-serif;
     /* margin: 210px auto; */
-    max-width: 450px;
+    max-width: 512px;
     line-height: 1.6;
-    font-size: 20px;
+    font-size: 18px;
     /* padding: 0 10px; */
     margin: 0 auto; /* center */
     /* text-align: center; */
@@ -39,7 +39,7 @@ h1,h2,h3 {
 /* } */
 
 .main {
-    max-width: 450px;
+    max-width: 512px;
     /* margin-left: auto; */
     /* margin-right: auto; */
     margin: 0 auto; /* center */
@@ -48,7 +48,7 @@ h1,h2,h3 {
 }
 
 .header {
-    max-width: 450px;
+    max-width: 512px;
     width: 100%;
     margin: 0 auto; /* center */
     text-align: center;
@@ -61,6 +61,6 @@ h1,h2,h3 {
     margin-top : 40px;
     margin-bottom : 5px;
     margin-left: 10px;
-    font-size: 16px;
+    font-size: 14px;
 }
 }
