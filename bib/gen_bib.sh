@@ -4,11 +4,12 @@
 python ~/scripts/fix_bibtex_macros.py me.bib
 
 # Generate the HTML file from the bibtex file
-bibtex2html -noabstract -nokeywords -noheader -m aas.tex -s abbrv.bst -d -r me.bib
+bibtex2html -noabstract -nokeywords -noheader -m aas.tex -s abbrv -d -r --revkeys -nodoc me.bib
 
 # Make my name bold
 sed -i.bak -e 's/L\.\&nbsp;Conaboy/<b>L\.\&nbsp;Conaboy<\/b>/' me.html
 
 # Finally, format the output nicely
 python strip_bib.py me.html
+cp me_bib.html ../me_bib.html
 

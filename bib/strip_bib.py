@@ -29,7 +29,7 @@ out.write('	<a href="bib.html" style="color:#4AC16D">publications</a>\n')
 out.write('      </div>\n')
 out.write('\n')
 out.write('      <div class="container">\n')
-out.write('	  <div class="text">\n')
+out.write('	  <div class="papers">\n')
 out.write('	    <p style="text-align: center">\n')
 out.write('         <a href="index.html" style="color:#0000FF">home</a>/<a href="bib.html" style="color:#0000FF">publications</a>\n')
 out.write('	    </p>\n')
@@ -41,12 +41,9 @@ out.write('	    </p>\n')
 out.write('	    <p>\n')
 
 # Now the actual bibliography
-write = False
+write = True
 for l in inp:
-    if l[0:6] == "<body>":
-        print("-- writing now")
-        write = True
-    elif l[0:8] == "</table>":
+    if l[0:8] == "</table>":
         print("-- stopping writing")
         write = False
         out.write("</table>\n")
