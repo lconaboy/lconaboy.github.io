@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: bib2html7eb984.aux
+The style file: me-abbrv.bst.bst
+Database file #1: me.bib
+You can't pop an empty literal stack for entry conaboy2025
+while executing---line 1090 of file me-abbrv.bst.bst
+You can't pop an empty literal stack for entry iliev2024
+while executing---line 1090 of file me-abbrv.bst.bst
+You can't pop an empty literal stack for entry sawyer2025
+while executing---line 1090 of file me-abbrv.bst.bst
+You can't pop an empty literal stack for entry sooknunan2024
+while executing---line 1090 of file me-abbrv.bst.bst
+You've used 9 entries,
+            2117 wiz_defined-function locations,
+            540 strings with 9402 characters,
+and the built_in function-call counts, 11468 in all, are:
+= -- 933
+> -- 1337
+< -- 4
++ -- 537
+- -- 524
+* -- 1164
+:= -- 1990
+add.period$ -- 27
+call.type$ -- 9
+change.case$ -- 289
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 229
+empty$ -- 263
+format.name$ -- 524
+if$ -- 2138
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 9
+newline$ -- 48
+num.names$ -- 18
+pop$ -- 287
+preamble$ -- 1
+purify$ -- 280
+quote$ -- 0
+skip$ -- 251
+stack$ -- 0
+substring$ -- 270
+swap$ -- 141
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 36
+warning$ -- 0
+while$ -- 28
+width$ -- 10
+write$ -- 99
+(There were 4 error messages)
