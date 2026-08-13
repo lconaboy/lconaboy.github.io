@@ -1,0 +1,229 @@
+<?php
+$title      = 'conaboy/publications';
+$breadcrumb = '<a href="index.php" style="color:#0000FF">home</a>/<a href="bib.php" style="color:#0000FF">publications</a>';
+include __DIR__ . '/includes/header.php';
+?>
+      <div class="papers">
+        <p>
+          Publications are listed below (see also <a href="https://ui.adsabs.harvard.edu/search/q=%20author%3A%22conaboy%2C%20luke%22&sort=date%20desc%2C%20bibcode%20desc&p_=0">ADS</a>).
+        </p>
+        <p>
+<table>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+<a name=bonaldi2025a>&nbsp;<a href="me_bib.html#bonaldi2025a">bib</a>&nbsp; 
+<a href="http://dx.doi.org/10.1093/mnras/staf1466">DOI</a>&nbsp;
+
+</a>
+</td>
+<td class="bibtexitem">
+A.&nbsp;Bonaldi, P.&nbsp;Hartley, R.&nbsp;Braun, S.&nbsp;Purser, A.&nbsp;Acharya, K.&nbsp;Ahn,
+  M.&nbsp;Aparicio&nbsp;Resco, O.&nbsp;Bait, M.&nbsp;Bianco, A.&nbsp;Chakraborty, E.&nbsp;Chapman,
+  S.&nbsp;Chatterjee, K.&nbsp;Chege, H.&nbsp;Chen, X.&nbsp;Chen, Z.&nbsp;Chen, <b>L.&nbsp;Conaboy</b>, M.&nbsp;Cruz,
+  L.&nbsp;Darriba, M.&nbsp;De&nbsp;Santis, P.&nbsp;Denzel, K.&nbsp;Diao, J.&nbsp;Feron, C.&nbsp;Finlay, B.&nbsp;Gehlot,
+  S.&nbsp;Ghosh, S.&nbsp;K. Giri, R.&nbsp;Grumitt, S.&nbsp;E. Hong, T.&nbsp;Ito, M.&nbsp;Jiang, C.&nbsp;Jordan,
+  S.&nbsp;Kim, M.&nbsp;Kim, J.&nbsp;Kim, S.&nbsp;P. Krishna, A.&nbsp;Kulkarni, M.&nbsp;L&oacute;pez-Caniego,
+  I.&nbsp;Labadie-Garc&iacute;a, H.&nbsp;Lee, D.&nbsp;Lee, N.&nbsp;Lee, J.&nbsp;Line, Y.&nbsp;Liu, Y.&nbsp;Mao,
+  A.&nbsp;Mazumder, F.&nbsp;G. Mertens, S.&nbsp;Munshi, A.&nbsp;Nasirudin, S.&nbsp;Ni, V.&nbsp;Nistane,
+  C.&nbsp;Norregaard, D.&nbsp;Null, A.&nbsp;Offringa, M.&nbsp;Oh, S.&nbsp;H. Oh, D.&nbsp;Parkinson,
+  J.&nbsp;Pritchard, M.&nbsp;Ruiz-Granda, V.&nbsp;Salvador&nbsp;L&oacute;pez, H.&nbsp;Shan, R.&nbsp;Sharma,
+  C.&nbsp;Trott, S.&nbsp;Yoshiura, L.&nbsp;Zhang, X.&nbsp;Zhang, Q.&nbsp;Zheng, Z.&nbsp;Zhu, S.&nbsp;Zuo,
+  T.&nbsp;Akahori, P.&nbsp;Alberto, E.&nbsp;Allys, T.&nbsp;An, D.&nbsp;Anstey, J.&nbsp;Baek, Basavraj,
+  S.&nbsp;Brackenhoff, P.&nbsp;Browne, E.&nbsp;Ceccotti, T.&nbsp;Chen, S.&nbsp;Choudhuri, M.&nbsp;Choudhury,
+  J.&nbsp;Coles, J.&nbsp;Cook, D.&nbsp;Cornu, S.&nbsp;Cunnington, S.&nbsp;Das, E.&nbsp;de Lera Acedo Acedo,
+  J.&nbsp;M. Delouis, F.&nbsp;Deng, J.&nbsp;Ding, K.&nbsp;M.&nbsp;A. Elahi, P.&nbsp;Fernandez,
+  C.&nbsp;Fern&aacute;ndez, A.&nbsp;Fern&aacute;ndez&nbsp;Alc&aacute;zar, V.&nbsp;Galluzzi, L.&nbsp;Y. Gao,
+  U.&nbsp;Garain, J.&nbsp;Garrido, M.&nbsp;L. Gendron-Marsolais, T.&nbsp;Gessey-Jones,
+  H.&nbsp;Ghorbel, Y.&nbsp;Gong, S.&nbsp;Guo, K.&nbsp;Hasegawa, T.&nbsp;Hayashi, D.&nbsp;Herranz, V.&nbsp;Holanda,
+  A.&nbsp;J. Holloway, I.&nbsp;Hothi, C.&nbsp;H&ouml;fer, V.&nbsp;Jeli&#x107;, Y.&nbsp;Jiang, X.&nbsp;Jiang,
+  H.&nbsp;Kang, J.&nbsp;Y. Kim, L.&nbsp;V. Koopmans, R.&nbsp;Lacroix, E.&nbsp;Lee, S.&nbsp;Leeney,
+  F.&nbsp;Levrier, Y.&nbsp;Li, Q.&nbsp;Ma, R.&nbsp;Meriot, A.&nbsp;Mesinger, M.&nbsp;Mevius, T.&nbsp;Minoda, M.&nbsp;A.
+  Miville-Desch&ecirc;nes, J.&nbsp;Moldon, R.&nbsp;Mondal, C.&nbsp;Murmu, S.&nbsp;Murray, 
+  Sr.&nbsp;Nirmala, Q.&nbsp;Niu, C.&nbsp;Nunhokee, O.&nbsp;O'Hara, S.&nbsp;K. Pal, S.&nbsp;Pal, J.&nbsp;Park,
+  M.&nbsp;Parra, N.&nbsp;N. Patra, B.&nbsp;Pindor, M.&nbsp;Remazeilles, P.&nbsp;Rey, J.&nbsp;A.
+  Rubino-Martin, S.&nbsp;Saha, A.&nbsp;Selvaraj, B.&nbsp;Semelin, R.&nbsp;Shah, Y.&nbsp;Shao, A.&nbsp;K.
+  Shaw, F.&nbsp;Shi, H.&nbsp;Shimabukuro, G.&nbsp;Singh, B.&nbsp;W. Sohn, M.&nbsp;Stagni, J.&nbsp;L. Starck,
+  C.&nbsp;Sui, J.&nbsp;D. Swinbank, J.&nbsp;S&aacute;nchez, S.&nbsp;S&aacute;nchez-Exp&oacute;sito,
+  K.&nbsp;Takahashi, T.&nbsp;Takeuchi, A.&nbsp;Tripathi, L.&nbsp;Verdes-Montenegro, P.&nbsp;Vielva,
+  F.&nbsp;R. Vitello, G.&nbsp;J. Wang, Q.&nbsp;Wang, X.&nbsp;Wang, Y.&nbsp;Wang, Y.&nbsp;X. Wang, T.&nbsp;Wiegert,
+  A.&nbsp;Wild, W.&nbsp;L. Williams, L.&nbsp;Wolz, X.&nbsp;Wu, P.&nbsp;Wu, J.&nbsp;Q. Xia, Y.&nbsp;Xu, R.&nbsp;Yan,
+  Y.&nbsp;P. Yan, Z.&nbsp;Yin, Z.&nbsp;You, X.&nbsp;Yu, K.&nbsp;Yu, B.&nbsp;Yue, Z.&nbsp;Zhao, X.&nbsp;Zhao, and
+  X.&nbsp;Zhou.
+ Square Kilometre Array Science Data Challenge 3a: Foreground
+  removal for an EoR experiment.
+ <em>MNRAS</em>, 543:1092--1119, Oct. 2025.
+
+</tr>
+</td>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+<a name=attard2025>&nbsp;<a href="me_bib.html#attard2025">bib</a>&nbsp; 
+<a href="http://dx.doi.org/10.48550/arXiv.2509.10133">DOI</a>&nbsp;
+
+</a>
+</td>
+<td class="bibtexitem">
+D.&nbsp;Attard, <b>L.&nbsp;Conaboy</b>, N.&nbsp;Libeskind, S.&nbsp;Pillipenko, K.&nbsp;Dixon, and I.&nbsp;T. Iliev.
+ Reionization in HESTIA: Studying reionization in the LG
+  through zoom simulations, Sept. 2025.
+
+</tr>
+</td>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+<a name=iliev2025>&nbsp;<a href="me_bib.html#iliev2025">bib</a>&nbsp; 
+<a href="http://dx.doi.org/10.1093/mnras/staf776">DOI</a>&nbsp;
+
+</a>
+</td>
+<td class="bibtexitem">
+I.&nbsp;T. Iliev, A.&nbsp;R. Hosein, J.&nbsp;Chluba, <b>L.&nbsp;Conaboy</b>, D.&nbsp;Attard, R.&nbsp;Mondal, K.&nbsp;Ahn,
+  S.&nbsp;Gottl&ouml;ber, J.&nbsp;Lewis, P.&nbsp;Ocvirk, H.&nbsp;Park, P.&nbsp;R. Shapiro, J.&nbsp;G. Sorce,
+  and G.&nbsp;Yepes.
+ The Thermal Sunyaev-Zel'dovich Effect from the Epoch of
+  Reionization.
+ <em>MNRAS</em>, May 2025.
+
+</tr>
+</td>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+<a name=conaboy2025>&nbsp;<a href="me_bib.html#conaboy2025">bib</a>&nbsp; 
+<a href="pdf/conaboy2025.pdf">pdf</a>&nbsp;&nbsp;<a href="http://dx.doi.org/10.1093/mnras/staf648">DOI</a>&nbsp;
+
+</a>
+</td>
+<td class="bibtexitem">
+<b>L.&nbsp;Conaboy</b>, J.&nbsp;S. Bolton, L.&nbsp;C. Keating, M.&nbsp;G. Haehnelt, G.&nbsp;Kulkarni, and
+  E.&nbsp;Puchwein.
+ The connection between high-redshift galaxies and Lyman
+  &alpha; transmission in the Sherwood--Relics simulations of patchy
+  reionization.
+ <em>MNRAS</em>, 539:2790--2805, May 2025.
+
+</tr>
+</td>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+<a name=lee2025>&nbsp;<a href="me_bib.html#lee2025">bib</a>&nbsp; 
+<a href="http://dx.doi.org/10.3847/2515-5172/adcea7">DOI</a>&nbsp;
+
+</a>
+</td>
+<td class="bibtexitem">
+E.&nbsp;H. Lee, J.&nbsp;Lee, P.&nbsp;R. Shapiro, P.&nbsp;Ocvirk, J.&nbsp;S.&nbsp;W. Lewis, T.&nbsp;Dawoodbhoy,
+  I.&nbsp;T. Iliev, <b>L.&nbsp;Conaboy</b>, K.&nbsp;Ahn, H.&nbsp;Park, J.&nbsp;G. Sorce, D.&nbsp;Aubert,
+  R.&nbsp;Teyssier, G.&nbsp;Yepes, Y.&nbsp;Dubois, and S.&nbsp;Gottl&ouml;ber.
+ Line Intensity Mapping Prediction from the Cosmic Dawn
+  (CoDa). III. Simulation for H&alpha; from Galaxies and
+  the Intergalactic Medium During the Epoch of Reionization.
+ <em>Research Notes of the American Astronomical Society</em>, 9:96, Apr.
+  2025.
+
+</tr>
+</td>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+<a name=sawyer2025>&nbsp;<a href="me_bib.html#sawyer2025">bib</a>&nbsp; 
+<a href="http://arxiv.org/abs/2502.03085">arXiv</a>&nbsp;
+
+</a>
+</td>
+<td class="bibtexitem">
+F.&nbsp;Sawyer, J.&nbsp;S. Bolton, G.&nbsp;D. Becker, <b>L.&nbsp;Conaboy</b>, M.&nbsp;G. Haehnelt, L.&nbsp;Keating,
+  G.&nbsp;Kulkarni, and E.&nbsp;Puchwein.
+ How probable is the Lyman-$&alpha;$ damping wing in the
+  spectrum of the redshift z = 5.9896 quasar ULAS J0148+0600?
+ <em>arXiv e-prints</em>, page arXiv:2502.03085, Feb. 2025.
+
+</tr>
+</td>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+<a name=sooknunan2024>&nbsp;<a href="me_bib.html#sooknunan2024">bib</a>&nbsp; 
+<a href="http://arxiv.org/abs/2412.15893">arXiv</a>&nbsp;
+
+</a>
+</td>
+<td class="bibtexitem">
+K.&nbsp;Sooknunan, E.&nbsp;Chapman, <b>L.&nbsp;Conaboy</b>, D.&nbsp;Mortlock, and J.&nbsp;Pritchard.
+ Reproducibility of machine learning analyses of 21 cm reionization
+  maps.
+ <em>arXiv e-prints</em>, page arXiv:2412.15893, Dec. 2024.
+
+</tr>
+</td>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+<a name=ocvirk2024>&nbsp;<a href="me_bib.html#ocvirk2024">bib</a>&nbsp; 
+<a href="http://dx.doi.org/10.48550/arXiv.2409.05946">DOI</a>&nbsp;
+
+</a>
+</td>
+<td class="bibtexitem">
+P.&nbsp;Ocvirk, J.&nbsp;S.&nbsp;W. Lewis, <b>L.&nbsp;Conaboy</b>, Y.&nbsp;Dubois, M.&nbsp;Bethermin, J.&nbsp;G. Sorce,
+  D.&nbsp;Aubert, P.&nbsp;R. Shapiro, T.&nbsp;Dawoodbhoy, J.&nbsp;Lee, R.&nbsp;Teyssier, G.&nbsp;Yepes,
+  S.&nbsp;Gottl&ouml;ber, I.&nbsp;T. Iliev, K.&nbsp;Ahn, and H.&nbsp;Park.
+ Dust-UV offsets in high-redshift galaxies in the Cosmic Dawn
+  III simulation.
+ <em>arXiv e-prints</em>, Sept. 2024.
+
+</tr>
+</td>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+<a name=feron2024>&nbsp;<a href="me_bib.html#feron2024">bib</a>&nbsp; 
+<a href="http://dx.doi.org/10.1093/mnras/stae1636">DOI</a>&nbsp;
+
+</a>
+</td>
+<td class="bibtexitem">
+J.&nbsp;Feron, <b>L.&nbsp;Conaboy</b>, J.&nbsp;S. Bolton, E.&nbsp;Chapman, M.&nbsp;G. Haehnelt, L.&nbsp;C. Keating,
+  G.&nbsp;Kulkarni, and E.&nbsp;Puchwein.
+ The Lyman-limit photon mean free path at the end of late
+  reionization in the Sherwood-Relics simulations.
+ <em>MNRAS</em>, 532:2401--2417, Aug. 2024.
+
+</tr>
+</td>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+<a name=conaboy2023>&nbsp;<a href="me_bib.html#conaboy2023">bib</a>&nbsp; 
+<a href="pdf/conaboy2023.pdf">pdf</a>&nbsp;&nbsp;<a href="http://dx.doi.org/10.1093/mnras/stad2699">DOI</a>&nbsp;
+
+</a>
+</td>
+<td class="bibtexitem">
+<b>L.&nbsp;Conaboy</b>, I.&nbsp;T. Iliev, A.&nbsp;Fialkov, K.&nbsp;L. Dixon, and D.&nbsp;Sullivan.
+ Relative baryon-dark matter velocities in cosmological zoom
+  simulations.
+ <em>MNRAS</em>, 525:5479--5491, Nov. 2023.
+
+</tr>
+</td>
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+<a name=lewis2022b>&nbsp;<a href="me_bib.html#lewis2022b">bib</a>&nbsp; 
+<a href="http://dx.doi.org/10.1093/mnras/stac2383">DOI</a>&nbsp;
+
+</a>
+</td>
+<td class="bibtexitem">
+J.&nbsp;S.&nbsp;W. Lewis, P.&nbsp;Ocvirk, J.&nbsp;G. Sorce, Y.&nbsp;Dubois, D.&nbsp;Aubert, <b>L.&nbsp;Conaboy</b>, P.&nbsp;R.
+  Shapiro, T.&nbsp;Dawoodbhoy, R.&nbsp;Teyssier, G.&nbsp;Yepes, S.&nbsp;Gottl&ouml;ber, Y.&nbsp;Rasera,
+  K.&nbsp;Ahn, I.&nbsp;T. Iliev, H.&nbsp;Park, and &Eacute;.&nbsp;Th&eacute;lie.
+ The short ionizing photon mean free path at z = 6 in Cosmic Dawn
+  III, a new fully coupled radiation-hydrodynamical simulation of the
+  Epoch of Reionization.
+ <em>MNRAS</em>, 516:3389--3397, Nov. 2022.
+
+</tr>
+</td>
+</table>
+        </p>
+
+        <p style="font-size: 14px">
+          Bibliography converted from bibtex to HTML using <a href="http://www.lri.fr/~filliatr/bibtex2html/"><tt>bibtex2html</tt></a>, inspired by <a href="https://fleuret.org/francois/publications.html">François Fleuret</a>
+        </p>
+      </div>
+<?php include __DIR__ . '/includes/footer.php'; ?>
