@@ -1,3 +1,9 @@
+<?php
+$title      = 'conaboy/now-playing';
+$breadcrumb = '<a href="index.php" style="color:#0000FF">home</a>/<a href="now-playing.php" style="color:#0000FF">now-playing</a>';
+include __DIR__ . '/includes/header.php';
+?>
+
 <style>
   .post { max-width: 820px; }
 
@@ -14,8 +20,8 @@
     background: none;
     border: none;
     border-bottom: 1px solid transparent;
-    color: #d33682;
-    font-family: 'Raleway', Arial, sans-serif;
+    color: black;
+    font-family: Arial, sans-serif;
     font-weight: 600;
     font-size: 1em;
     text-transform: uppercase;
@@ -26,7 +32,7 @@
 
   .rec-filter-btn:hover { color: #586e75; }
 
-  .rec-filter-btn.active { border-bottom: 1px solid #d33682; }
+  .rec-filter-btn.active { border-bottom: 1px solid black; }
 
   .rec-sort-label {
     font-family: 'Raleway', Arial, sans-serif;
@@ -78,7 +84,7 @@
   .rec-title {
     display: block;
     color: #586e75;
-    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 13px;
     line-height: 1.3;
     margin-bottom: 0.2em;
@@ -86,8 +92,8 @@
 
   .rec-artist {
     display: block;
-    color: #d33682;
-    font-family: 'Raleway', Arial, sans-serif;
+    color: black;
+    font-family: Arial, sans-serif;
     font-weight: 600;
     font-size: 12px;
     text-transform: uppercase;
@@ -97,7 +103,7 @@
   .rec-year {
     display: block;
     color: #93a1a1;
-    font-family: 'Raleway', Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 11px;
     font-weight: 600;
   }
@@ -115,9 +121,10 @@
 
 <script>
 (function () {
-  const USERNAME = "lconaboy";
-  const TOKEN    = "XwEiITJvPaHLqPpeJHJCBhfIPueIGfXURMNdALuM";
-  const BASE_URL = "https://api.discogs.com/users/" + USERNAME + "/collection/folders/0/releases";
+  // Data is pre-fetched at build time (see generate-records.php) and
+  // committed as records.json — no Discogs token is needed here, and
+  // none is exposed to visitors.
+  const RECORDS_URL = "records.json";
 
   function esc(s) {
     return String(s)
@@ -127,19 +134,8 @@
 
   function cleanArtist(name) { return name.replace(/\s*\(\d+\)\s*$/, ""); }
 
-  function fetchPage(page) {
-    return fetch(BASE_URL + "?token=" + TOKEN + "&per_page=100&sort=artist&page=" + page)
-      .then(r => r.json());
-  }
-
   function fetchAll() {
-    return fetchPage(1).then(data => {
-      const first = data.releases, pages = data.pagination.pages;
-      if (pages <= 1) return first;
-      const rest = [];
-      for (let p = 2; p <= pages; p++) rest.push(fetchPage(p).then(d => d.releases));
-      return Promise.all(rest).then(arrays => first.concat(...arrays));
-    });
+    return fetch(RECORDS_URL).then(r => r.json());
   }
 
   function isCD(r) {
@@ -228,7 +224,7 @@
     ].forEach(({ label, key }) => {
       const b = document.createElement("button");
       b.textContent = label;
-      b.className   = "rec-filter-btn" + (key === "lps" ? " active" : "");
+      b.className   = "rec-filter-btn" + (key === "all" ? " active" : "");
       b.addEventListener("click", () => {
         filterBar.querySelectorAll(".rec-filter-btn").forEach(x =>
           x.classList.toggle("active", x === b));
@@ -269,3 +265,8 @@
   });
 }());
 </script>
+<p style="font-size: 14px">
+          Thanks (again) to <a href=https://garrethmartin.github.io/>Garreth Martin</a>.
+ </p>
+
+<?php include __DIR__ . '/includes/footer.php'; ?>
