@@ -18,6 +18,9 @@ $title = $title ?? SITE_NAME;
 
     <div class="header">
 <?php foreach ($SITE_NAV as $link): ?>
+      <?php if ($link['label'] == 'now-playing'): ?>
+      &#8226;
+      <?php endif; ?>
       <a href="<?= htmlspecialchars($link['href']) ?>" style="color:<?= htmlspecialchars($link['color']) ?>"><?= htmlspecialchars($link['label']) ?></a>
 <?php endforeach; ?>
     </div>

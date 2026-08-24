@@ -100,6 +100,7 @@ def get_journal_bibitem(p):
 
         
 def p_to_bibitem(p):
+    print(p.get('title'))
     url = doi_to_url(p.get('doi'))
 
     bibitem = '<tr valign="top">\n'
@@ -110,6 +111,8 @@ def p_to_bibitem(p):
         bibitem += '<a href="'+url['arxiv']+'">arXiv</a>&nbsp;\n'
     # bibitem += '</a>\n'
     bibitem += '</td>\n'
+    # bibitem += '<td>\n'
+    # bibitem += '</td>\n'
     bibitem += '<td class="bibtexitem">\n'
 
     # Now format authors
@@ -126,15 +129,36 @@ def p_to_bibitem(p):
         if nauthors < MAXAUTHORS:
             bibitem += ', '
             nauthors += 1
-    
+ 
     bibitem = bibitem
-    bibitem += p.get('title')[0] + ', '
+    bibitem += '<i>' + p.get('title')[0].replace('$', '') + '</i>, '
     journal = get_journal_bibitem(p)
     if journal is not None: bibitem += journal + '\n'
-    bibitem += '</tr>\n'
     bibitem += '</td>\n'
+    bibitem += '</tr>\n'
 
     return bibitem
+
+
+def year_to_bibitem(year):
+    bibitem = '<tr valign="top"; class="border_bottom">\n'
+    bibitem += '<td align="right">\n'
+    bibitem += '<b>' + year + '</b>\n'
+    # bibitem += '</a>\n'
+    bibitem += '</td>\n'
+    # bibitem += '<td>\n'
+    # bibitem += '</td>\n'
+    bibitem += '<td>\n'
+    bibitem += '</td>\n'
+    bibitem += '</tr>\n'
+
+    return bibitem
+
+def pubdate_to_year(pubdate):
+    year = pubdate[0:4]
+
+    return year
+
 
 if __name__ == "__main__":
     TOKEN = read_token()
@@ -152,13 +176,32 @@ if __name__ == "__main__":
         print(f"\nFetched {len(papers)} papers from '{libraries[0]['name']}':\n")
         for p in papers:
             k = p.get('pubdate')
+            
             if k[-1] == '0':
-                k = k[:-1] + '1'  # not sure what's going on but we can't have zero days
+                k = k[:-1] + '1'  # not sure what's going on but we
+                                  # can't have zero days
+
+                # We need to deal with dupilcate pubdates, since we
+                # use the pubdate as a key. This is going to be
+                # good...
+            while k in bibitems:
+                k = k[:-1] + str(int(k[-1]) + 1)
+
             bibitems[k] = p_to_bibitem(p)
 
+            # TODO write new date and add bottom line to the rows
+
     bibitems = dict(sorted(bibitems.items(), key=lambda x: datetime.datetime.strptime(x[0], '%Y-%m-%d'), reverse=True))
+    cur_year = 9999
     with open('bibtab.html', 'w') as f:
-        f.write('<table>\n')
+        f.write('<table border-collapse: collapse>\n')
         for pubdate, bibitem in bibitems.items():
+            
+            year = pubdate_to_year(pubdate)
+
+            if int(year) < cur_year:
+                f.write(year_to_bibitem(year))
+                cur_year = int(year)
+
             f.write(bibitem)
         f.write('</table>\n')
