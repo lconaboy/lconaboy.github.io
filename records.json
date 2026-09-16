@@ -479,6 +479,30 @@
     },
     {
         "basic_information": {
+            "id": 537300,
+            "master_id": 95585,
+            "title": "Love Generation",
+            "year": 2005,
+            "cover_image": "https://i.discogs.com/jLrh0wRtWpESJYS3wfCclJyZWgb1k6XZtOetx7PG2XA/rs:fit/g:sm/q:90/h:513/w:509/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzNzMw/MC0xMjE5Nzk4MjE3/LmpwZWc.jpeg",
+            "thumb": "https://i.discogs.com/auzGfC1ysabJhskCM4hW6Zj4CSHJrFOlFt5uhnzMnXc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzNzMw/MC0xMjE5Nzk4MjE3/LmpwZWc.jpeg",
+            "artists": [
+                {
+                    "name": "Bob Sinclar"
+                }
+            ],
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "descriptions": [
+                        "12\""
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "basic_information": {
             "id": 942202,
             "master_id": 869478,
             "title": "Feels So Good",
@@ -1366,6 +1390,55 @@
     },
     {
         "basic_information": {
+            "id": 2380386,
+            "master_id": 0,
+            "title": "Inner Life",
+            "year": 2010,
+            "cover_image": "https://i.discogs.com/vYT3OMlZ36Yx1Ky2NIZ3y2vyR4ffvq3CQ2DRnqiEOvg/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzODAz/ODYtMTUxMzkwNzQw/My05Njc3LmpwZWc.jpeg",
+            "thumb": "https://i.discogs.com/23euXoo3nNQBIbTiD-5lMJqKwwyREIF6vommKlmsLQ8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzODAz/ODYtMTUxMzkwNzQw/My05Njc3LmpwZWc.jpeg",
+            "artists": [
+                {
+                    "name": "Giulio DJ"
+                }
+            ],
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "descriptions": [
+                        "12\""
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "basic_information": {
+            "id": 47066,
+            "master_id": 1346724,
+            "title": "Power",
+            "year": 1997,
+            "cover_image": "https://i.discogs.com/9YeM6rCPVGE--8LqL9Wty6yD6ntlHbNDenbx2j2f5UI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ3MDY2/LTE1MzYwODcwNDYt/NTk1My5qcGVn.jpeg",
+            "thumb": "https://i.discogs.com/fdPK6K3MqypPZ95Hp4R1JABF_slFfQh4hTU4IVU39sU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ3MDY2/LTE1MzYwODcwNDYt/NTk1My5qcGVn.jpeg",
+            "artists": [
+                {
+                    "name": "Glenn Turner"
+                }
+            ],
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "descriptions": [
+                        "12\"",
+                        "33 \u2153 RPM"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "basic_information": {
             "id": 1543,
             "master_id": 9096,
             "title": "Get Down",
@@ -1618,6 +1691,30 @@
                     "descriptions": [
                         "12\"",
                         "Sampler"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "basic_information": {
+            "id": 424020,
+            "master_id": 0,
+            "title": "Basement Works (Volume 4)",
+            "year": 2005,
+            "cover_image": "https://i.discogs.com/tzEpQFhPARsA22g5XYy5LXo6Y8I046f0U8iyEFSLxyQ/rs:fit/g:sm/q:90/h:200/w:200/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQyNDAy/MC0xMTExNTAxMTMz/LmpwZw.jpeg",
+            "thumb": "https://i.discogs.com/u_BrwWCvmCzYTXBkSSRCn6asPOqD645YZs5re57yvAE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQyNDAy/MC0xMTExNTAxMTMz/LmpwZw.jpeg",
+            "artists": [
+                {
+                    "name": "Kid Sublime"
+                }
+            ],
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "descriptions": [
+                        "12\""
                     ]
                 }
             ]
@@ -1968,6 +2065,33 @@
     },
     {
         "basic_information": {
+            "id": 546130,
+            "master_id": 78103,
+            "title": "Fantasy",
+            "year": 1995,
+            "cover_image": "https://i.discogs.com/aaOj96SJl7H_YASDmzUfS4TAhL9eD58p31uleTiLQPQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU0NjEz/MC0xMTg0OTUyNTcw/LmpwZWc.jpeg",
+            "thumb": "https://i.discogs.com/h04FqwiH7QsoNR4knJ7iHuvlA8kKFR9KKpbDP1yoJp8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU0NjEz/MC0xMTg0OTUyNTcw/LmpwZWc.jpeg",
+            "artists": [
+                {
+                    "name": "Mariah Carey"
+                }
+            ],
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "2",
+                    "text": "Gatefold",
+                    "descriptions": [
+                        "12\"",
+                        "33 \u2153 RPM",
+                        "Stereo"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "basic_information": {
             "id": 8358,
             "master_id": 115970,
             "title": "Grand Bazaar",
@@ -2040,6 +2164,30 @@
                         "33 \u2153 RPM",
                         "Single",
                         "Promo"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "basic_information": {
+            "id": 239278,
+            "master_id": 0,
+            "title": "On The Street",
+            "year": 2000,
+            "cover_image": "https://i.discogs.com/7fd2RlUynYGIbo82A1Cw1y6lA9LnXy-BmUn_nkvL6Ug/rs:fit/g:sm/q:90/h:479/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzOTI3/OC0xMjQ4Mjc2MTkw/LmpwZWc.jpeg",
+            "thumb": "https://i.discogs.com/25NSSRnAtPcuKJEYj_UbkTVJAuAOjQGqpdtLdjtKV5c/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzOTI3/OC0xMjQ4Mjc2MTkw/LmpwZWc.jpeg",
+            "artists": [
+                {
+                    "name": "Moola"
+                }
+            ],
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "descriptions": [
+                        "12\""
                     ]
                 }
             ]
@@ -2463,6 +2611,35 @@
     },
     {
         "basic_information": {
+            "id": 14188,
+            "master_id": 0,
+            "title": "The Romanthony E.P.",
+            "year": 1996,
+            "cover_image": "https://i.discogs.com/R45ocvnFMI2iczBTZ6dvRf6APkJCh0aeaVg95ei20P8/rs:fit/g:sm/q:90/h:600/w:589/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MTg4/LTE1NzQ1MTMzMzIt/NDIyMy5qcGVn.jpeg",
+            "thumb": "https://i.discogs.com/1014y9t_RHluA5KuT5rPSXwlBIGUKC1NvycOyG0cOd4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MTg4/LTE1NzQ1MTMzMzIt/NDIyMy5qcGVn.jpeg",
+            "artists": [
+                {
+                    "name": "Romanthony"
+                },
+                {
+                    "name": "Eve Angel"
+                }
+            ],
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "descriptions": [
+                        "12\"",
+                        "33 \u2153 RPM",
+                        "EP"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "basic_information": {
             "id": 5817601,
             "master_id": 1217145,
             "title": "Humans Drums & Machines",
@@ -2492,8 +2669,8 @@
             "master_id": 86401,
             "title": "Michael",
             "year": 1999,
-            "cover_image": "https://i.discogs.com/FUDrB2ZVKSAPoklMT2lsbZzNnR8meZWI21O4al1kTgM/rs:fit/g:sm/q:90/h:579/w:577/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNzMw/LTExODU1Njc0Mzgu/anBlZw.jpeg",
-            "thumb": "https://i.discogs.com/XW_me_BVcfO6oCxa3tmJZnp7uzEfnGLCGkBRKxm37aA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNzMw/LTExODU1Njc0Mzgu/anBlZw.jpeg",
+            "cover_image": "https://i.discogs.com/NNQBVxX0NCLE0CIpexQ6tY7UGmNtgmJXbWcVbeBpZ9E/rs:fit/g:sm/q:90/h:579/w:577/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNzMw/LTExODU1Njc0NTMu/anBlZw.jpeg",
+            "thumb": "https://i.discogs.com/4kndM8gG56LQEAKdmDzV9CmK_BEwbaA-LXj0W5j-QYM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNzMw/LTExODU1Njc0NTMu/anBlZw.jpeg",
             "artists": [
                 {
                     "name": "Roy Davis Jr."
@@ -2655,6 +2832,33 @@
     },
     {
         "basic_information": {
+            "id": 24692,
+            "master_id": 131884,
+            "title": "I Refuse (What You Want)",
+            "year": 1997,
+            "cover_image": "https://i.discogs.com/71q5fgO6qkeLpcXlVLA-xH1WfOeBw_UiKtoKgBzigX8/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0Njky/LTExOTQ2NDQzMjku/anBlZw.jpeg",
+            "thumb": "https://i.discogs.com/rOv4J9ZinOAqZh4r-X6OdTTs_niY9Bpf2NQGPm909rc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0Njky/LTExOTQ2NDQzMjku/anBlZw.jpeg",
+            "artists": [
+                {
+                    "name": "Somore"
+                },
+                {
+                    "name": "Damon Trueitt"
+                }
+            ],
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "descriptions": [
+                        "12\""
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "basic_information": {
             "id": 119966,
             "master_id": 1506605,
             "title": "Words Of Love (Re-Loved By Jazzanova)",
@@ -2688,8 +2892,8 @@
             "master_id": 315042,
             "title": "Here 4 U Now (This Is The Real Thang)",
             "year": 2001,
-            "cover_image": "https://i.discogs.com/Frh656Ry-_JA4e6mtljWYYHWHmwzUq5AxiEeaeNDEYI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzMDk4/MC0xMTcwNDM1ODkz/LmpwZWc.jpeg",
-            "thumb": "https://i.discogs.com/SCfDBSz9rzZ18NSan083OtZQdoiPTQ6lBc6gf2-rV2w/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzMDk4/MC0xMTcwNDM1ODkz/LmpwZWc.jpeg",
+            "cover_image": "https://i.discogs.com/pnKkzrJqEr0eIbjU0E_wTwwWCjxi6VrkLq9e7bUQVHU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzMDk4/MC0xMTcwNDM1ODMx/LmpwZWc.jpeg",
+            "thumb": "https://i.discogs.com/54bFmiQ061Bmy5p8a8ANtCbYGSRjZ5P5SwoYB5BtbWQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzMDk4/MC0xMTcwNDM1ODMx/LmpwZWc.jpeg",
             "artists": [
                 {
                     "name": "StahP & LamS"
@@ -2812,6 +3016,30 @@
                     "descriptions": [
                         "12\"",
                         "33 \u2153 RPM"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "basic_information": {
+            "id": 2684945,
+            "master_id": 544475,
+            "title": "The Age Of Compassion",
+            "year": 2011,
+            "cover_image": "https://i.discogs.com/t0qR43aPVVOFgaJVaNLTF699gd413fGKnk57Jl82B1I/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2ODQ5/NDUtMTUxNjM5MjEz/MS04NzAyLmpwZWc.jpeg",
+            "thumb": "https://i.discogs.com/9h_t4Anm37nhLBJYxAQ6f9YXgOaM6p8Bxhjp2c5mWAM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2ODQ5/NDUtMTUxNjM5MjEz/MS04NzAyLmpwZWc.jpeg",
+            "artists": [
+                {
+                    "name": "Tevo Howard"
+                }
+            ],
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "descriptions": [
+                        "12\""
                     ]
                 }
             ]
