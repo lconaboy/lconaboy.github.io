@@ -2,7 +2,7 @@
 // Site-wide settings. Edit these in one place instead of every page.
 
 define('SITE_NAME', 'Conaboy');
-define('SITE_EMAIL', 'luke.conaboy@nottingham.ac.uk');
+define('SITE_EMAIL', 'lukeconaboy.astro@gmail.com');
 define('SITE_CV_URL', 'https://raw.githubusercontent.com/lconaboy/cv/main/cv.pdf');
 define('SITE_GITHUB_URL', 'https://github.com/lconaboy');
 define('SITE_ADS_URL', 'https://ui.adsabs.harvard.edu/search/q=%20author%3A%22conaboy%2C%20luke%22&sort=date%20desc%2C%20bibcode%20desc&p_=0');
