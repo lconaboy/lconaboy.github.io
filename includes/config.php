@@ -15,6 +15,9 @@ $SITE_NAV = [
     ['label' => 'talks',        'href' => 'talks.php',        'color' => '#365C8D'],
     ['label' => 'email',        'href' => 'mailto:' . SITE_EMAIL, 'color' => '#277F8E'],
     ['label' => 'github',       'href' => SITE_GITHUB_URL,    'color' => '#1FA187'],
-    ['label' => 'publications', 'href' => 'bib.php',          'color' => '#4AC16D'],
+    ['label' => 'publications', 'href' => 'bib.php',          'color' => '#4AC16D'],];
+
+$SITE_NAV_FOOTER = [
     ['label' => 'now-playing', 'href' => 'now-playing.php',          'color' => '#648FFF'],
+    ['label' => 'records', 'href' => 'records.php',          'color' => '#785EF0'],    
 ];
