@@ -19,7 +19,7 @@ include __DIR__ . '/includes/header.php';
         </p>
 
         <p>
-          You can reach me (virtually) by <a href="mailto:<?php echo $SITE_EMAIL; ?>">email</a>.
+          You can reach me (virtually) by <a href="mailto:<?php echo SITE_EMAIL; ?>">email</a>.
         </p>
       </div>
 <?php include __DIR__ . '/includes/footer.php'; ?>
