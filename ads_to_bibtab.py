@@ -65,10 +65,13 @@ def read_token():
 
 
 def doi_to_url(doi):
-    assert len(doi) < 3, 'too many DOIs!'
 
     url = {}
     url = {'arxiv': None, 'pub': None}
+
+    if doi is None: return url
+    assert len(doi) < 3, f'too many DOIs: {doi}'
+    
     for doi_ in doi:
         doi_ = doi_.lower()
         if 'arxiv' in doi_:
@@ -91,7 +94,7 @@ def get_journal_bibitem(p):
         doi = p.get('doi')[0]
         arxiv = 'arXiv.'
         idx = doi.find(arxiv)
-        bibitem = 'astro-ph/' + doi[idx+len(arxiv):]
+        bibitem = 'arXiv:' + doi[idx+len(arxiv):]
     else:
         return None
 
@@ -176,6 +179,8 @@ if __name__ == "__main__":
         print(f"\nFetched {len(papers)} papers from '{libraries[0]['name']}':\n")
         for p in papers:
             k = p.get('pubdate')
+
+            print(p)
             
             if k[-1] == '0':
                 k = k[:-1] + '1'  # not sure what's going on but we

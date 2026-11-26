@@ -5,7 +5,7 @@ include __DIR__ . '/includes/header.php';
 ?>
       <div class="papers">
         <p>
-          Publications are listed below (see also <a href="https://ui.adsabs.harvard.edu/search/q=%20author%3A%22conaboy%2C%20luke%22&sort=date%20desc%2C%20bibcode%20desc&p_=0">ADS</a>).
+          Publications are listed below (see also <a href="https://scixplorer.org/search?ads_compat=1&fq=%7B%21type%3Daqp+v%3D%24fq_database%7D&fq_database=%28database%3A%22astronomy%22+OR+database%3A%22physics%22%29&p=1&q=docs%28library%2FnSlRHFo1SuK1_F-NjihsGQ%29&sort=date+desc&d=astrophysics">SciX</a>).
         </p>
         <p>
         </p>
